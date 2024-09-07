@@ -5,7 +5,7 @@ import LinkInternal from "../components/Links/LinkInternal";
 import LinkExternal from "../components/Links/LinkExternal";
 import ButtonInternal from "../components/Buttons/ButtonInternal";
 
-const privacyPage: NextPage = () => {
+const PrivacyPage: NextPage = () => {
   return (
     <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Privacy Policy for PAAFL.com" description="Pomeroy Appraisal Associates of Florida serves residential and commercial properties of Volusia, Flagler, Brevard, and Seminole counties in Florida" url="privacy" image="" />
@@ -67,4 +67,4 @@ const privacyPage: NextPage = () => {
   );
 };
 
-export default privacyPage;
+export default PrivacyPage;

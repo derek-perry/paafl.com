@@ -3,7 +3,7 @@ import SiteHead from "../components/SiteHead";
 import PageFooter from "../components/PageFooter";
 import ButtonInternal from "../components/Buttons/ButtonInternal";
 
-const error404Page: NextPage = () => {
+const Error404Page: NextPage = () => {
   return (
     <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Error 404: Content Not Found - Pomeroy Appraisal" description="Pomeroy Appraisal Associates of Florida serves residential and commercial properties of Volusia, Flagler, Brevard, and Seminole counties in Florida" url="404" image="" />
@@ -23,4 +23,4 @@ const error404Page: NextPage = () => {
   );
 };
 
-export default error404Page;
+export default Error404Page;

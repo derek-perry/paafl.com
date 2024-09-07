@@ -57,6 +57,11 @@ const nextConfig = {
         "source": "/cookie-policy",
         "destination": "/privacy",
         "permanent": true
+      },
+      {
+        "source": "/drive",
+        "destination": "https://drive.google.com/drive/folders/1nX9hNhkUO_EGE4j57A_wbqKk0yQhAuHk",
+        "permanent": true
       }
     ]
   }

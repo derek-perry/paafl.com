@@ -6,13 +6,13 @@ import LinkInternal from "../components/Links/LinkInternal";
 import Image from "next/image";
 import Card from "../components/Card";
 
-const homePage: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Pomeroy Appraisal" description="Pomeroy Appraisal Associates of Florida serves residential and commercial properties of Volusia, Flagler, Brevard, and Seminole counties in Florida" url="" image="" />
 
       <main className="py-20 px-9 max-w-[880px] w-full flex flex-1 flex-col text-center items-center justify-center">
-        <div className="flex flex-wrap gap-2 sm:gap-8 text-center md:text-justify items-center justify-center">
+        <div className="flex flex-wrap gap-2 sm:gap-8 align-top text-center md:text-justify items-center justify-center">
           <LinkInternal
             className="max-md:basis-full m-auto flex text-center items-center justify-center" href="" title="Pomeroy Appraisal">
             <Image
@@ -37,4 +37,4 @@ const homePage: NextPage = () => {
   );
 };
 
-export default homePage;
+export default HomePage;
