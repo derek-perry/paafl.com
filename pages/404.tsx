@@ -2,11 +2,12 @@ import type { NextPage } from "next";
 import SiteHead from "../components/SiteHead";
 import PageFooter from "../components/PageFooter";
 import ButtonInternal from "../components/Buttons/ButtonInternal";
+import { Name, Description } from "../data/info";
 
 const Error404Page: NextPage = () => {
   return (
     <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
-      <SiteHead title="Error 404: Content Not Found - Pomeroy Appraisal" description="Pomeroy Appraisal Associates of Florida serves residential and commercial properties of Volusia, Flagler, Brevard, and Seminole counties in Florida" url="404" image="" />
+      <SiteHead title={"Error 404: Content Not Found - " + Name} description={Description} url="404" image="" />
 
       <main className="max-md:pt-2 md:pt-9 pb-20 px-9 max-w-[1000px] w-full flex flex-1 flex-col text-center items-center justify-center">
         <h1 className="text-red-600">Error 404: Content Not Found</h1>

@@ -1,52 +1,15 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+import { JsonLdBusiness } from "../data/info";
 
 export default function Document() {
-  const addJsonLd = () => {
-    return {
-      __html: `{
-        "@context": "https://schema.org/",
-        "@type": "LocalBusiness",
-        "name": "Pomeroy Appraisal Associates of Florida",
-        "image": "https://paafl.com/banner.png",
-        "url": "https://paafl.com",
-        "telephone": "386-423-5110",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "600 N Ridgewood Ave",
-          "addressLocality": "Edgewater",
-          "addressRegion": "FL",
-          "postalCode": "32132",
-          "addressCountry": "US"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 29.00328349999999,
-          "longitude": -80.91390400000002
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "09:00",
-          "closes": "17:00"
-        },
-        "sameAs": "https://paafl.com"
-      }`
-    };
-  };
   return (
     <Html lang="en">
       <Head>
         <Script
           type="application/ld+json"
           strategy="beforeInteractive"
-          dangerouslySetInnerHTML={addJsonLd()}
+          dangerouslySetInnerHTML={JsonLdBusiness()}
           key="item-jsonld"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
