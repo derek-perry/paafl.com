@@ -3,6 +3,7 @@ import SiteHead from "../components/SiteHead";
 import PageHead from "../components/PageHead";
 import PageFooter from "../components/PageFooter";
 import Link from "next/link";
+import Image from "next/image";
 import Card from "../components/Card";
 import { Name, Description } from "../data/info";
 
@@ -21,9 +22,18 @@ const ServiceAreaPage: NextPage = () => {
           </section>
 
           <section id="service-area-card" className="mx-auto max-w-[880px]">
-            <Card className="mt-10 mb-20 mx-5 sm:mx-9">
+            <Card className="mt-10 mb-12 mx-5 sm:mx-9">
               <p className="font-normal text-3xl max-sm:text-2xl">We serve <Link href={linkBase + "/appraisal-residential" || "./appraisal-residential"} title="Get a Residential Appraisal"><strong>residential</strong></Link> and <Link href={linkBase + "/appraisal-commercial" || "./appraisal-commercial"} title="Get a Commercial Appraisal"><strong>commercial</strong></Link> properties of <em>Volusia, Flagler, Brevard, and Seminole</em> counties in Florida</p>
             </Card>
+          </section>
+
+          <section id="service-area-map" className="mx-auto max-w-[880px] px-0 sm:px-9">
+            <Image
+              src="/area.svg"
+              width={1180}
+              height={1180}
+              alt=""
+            />
           </section>
         </article>
       </main>

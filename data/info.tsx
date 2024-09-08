@@ -30,13 +30,34 @@ export const AddressLinkApple = "https://maps.apple.com/place?q=Pomeroy%20Apprai
 export const GitHub = "https://github.com/derek-perry/paafl.com";
 
 export const Pages = [
-  { title: "Home", href: "" },
-  { title: "Get an Appraisal", href: "appraisal" },
-  { title: "Services", href: "services" },
-  { title: "Service Area", href: "service-area" },
-  { title: "About", href: "about" },
-  { title: "FAQ", href: "faq" },
-  { title: "Contact Us", href: "contact" }
+  {
+    title: "Home",
+    href: ""
+  },
+  {
+    title: "Get an Appraisal",
+    href: "appraisal"
+  },
+  {
+    title: "Services",
+    href: "services"
+  },
+  {
+    title: "Service Area",
+    href: "service-area"
+  },
+  {
+    title: "About",
+    href: "about"
+  },
+  {
+    title: "FAQ",
+    href: "faq"
+  },
+  {
+    title: "Contact Us",
+    href: "contact"
+  }
 ];
 
 export const History = <>
@@ -48,7 +69,7 @@ export const History = <>
 
   <p>Forty years later, our current President, Ronald S. Crouse, is successfully carrying out the longstanding tradition of excellence and professionalism originated by Don Pomeroy in 1930.</p>
 
-  <p>Pomeroy Appraisal Associates of Florida Inc represents more than 45 years of experience in appraising and counseling. The president is a member of the Appraisal Institute (MAI) or (SRA) and are currently Florida State Certified Appraisers.</p>
+  <p>Pomeroy Appraisal Associates of Florida Inc represents more than 45 years of experience in appraising and counseling. The current President, Ronald S. Crouse, is a member of the Appraisal Institute (MAI) or (SRA) and is a Florida State Certified Appraiser.</p>
 </>
 
 export const Summary = <>
