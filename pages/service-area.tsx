@@ -25,9 +25,13 @@ const ServiceAreaPage: NextPage = () => {
             <Card className="mt-10 mb-12 mx-5 sm:mx-9">
               <p className="font-normal text-3xl max-sm:text-2xl">We serve <Link href={linkBase + "/appraisal-residential" || "./appraisal-residential"} title="Get a Residential Appraisal"><strong>residential</strong></Link> and <Link href={linkBase + "/appraisal-commercial" || "./appraisal-commercial"} title="Get a Commercial Appraisal"><strong>commercial</strong></Link> properties of <em>Volusia, Flagler, Brevard, and Seminole</em> counties in Florida</p>
             </Card>
+
+            <div id="get-an-appraisal" className="flex flex-col gap-3 text-center items-center justify-center">
+              <Link className="button text-xl" href={linkBase + "/appraisal" || "./appraisal"} title="Get an Appraisal">Get an Appraisal</Link>
+            </div>
           </section>
 
-          <section id="service-area-map" className="mx-auto max-w-[880px] px-0 sm:px-9">
+          <section id="service-area-map" className="mt-12 mx-auto max-w-[880px] px-0 sm:px-9">
             <Image
               src="/area.svg"
               width={1180}

@@ -15,6 +15,13 @@ export const PhoneOffice = "386-423-5110";
 export const PhoneTollFree = "888-388-1530";
 export const PhoneFax = "386-423-3066";
 
+export const ServiceAreas = [
+  "Volusia",
+  "Flagler",
+  "Brevard",
+  "Seminole"
+];
+
 export const Address = "600 N Ridgewood Ave";
 export const AddressFull = "600 N Ridgewood Ave Suite A, Edgewater, FL 32132-1659";
 export const AddressNumber = "600";

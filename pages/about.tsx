@@ -3,7 +3,7 @@ import SiteHead from "../components/SiteHead";
 import PageHead from "../components/PageHead";
 import PageFooter from "../components/PageFooter";
 import Link from "next/link";
-import Card from "../components/Card";
+import CardArea from "../components/CardArea";
 import { Name, Description, Summary, History, Experience } from "../data/info";
 
 const ContactPage: NextPage = () => {
@@ -20,13 +20,15 @@ const ContactPage: NextPage = () => {
             <h1 className="text-center px-5 sm:px-9">About {Name}</h1>
           </section>
 
-          <section id="about-card" className="mx-auto max-w-[880px]">
-            <Card className="mt-10 mb-20 mx-5 sm:mx-9">
-              <p className="font-normal text-3xl max-sm:text-2xl">We serve <Link href={linkBase + "/appraisal-residential" || "./appraisal-residential"} title="Get a Residential Appraisal"><strong>residential</strong></Link> and <Link href={linkBase + "/appraisal-commercial" || "./appraisal-commercial"} title="Get a Commercial Appraisal"><strong>commercial</strong></Link> properties of <em>Volusia, Flagler, Brevard, and Seminole</em> counties in Florida</p>
-            </Card>
+          <section id="about-cta" className="px-5 max-w-[1040px]">
+            <CardArea />
+
+            <div id="get-an-appraisal" className="flex flex-col gap-3 text-center items-center justify-center">
+              <Link className="button text-xl" href={linkBase + "/appraisal" || "./appraisal"} title="Get an Appraisal">Get an Appraisal</Link>
+            </div>
           </section>
 
-          <section id="about-info" className="px-5 sm:px-9 flex flex-col gap-20">
+          <section id="about-info" className="mt-20 px-5 sm:px-9 flex flex-col gap-20">
             <div className="flex flex-col gap-2">
               <h2 id="summary">Summary</h2>
               <div>{Summary}</div>
