@@ -10,7 +10,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 interface IItemAccordionProps {
   index: number;
   question: string;
-  answer: string;
+  answer: JSX.Element;
 }
 
 const ItemAccordion: FC<IItemAccordionProps> = ({

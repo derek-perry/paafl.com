@@ -49,19 +49,19 @@ const PageFooter = (): JSX.Element => {
               <div className="text-xl flex flex-row gap-x-2 text-center items-center justify-center">
                 <p>{AddressNumber} {AddressStreet} {AddressSuite}, <br />{AddressCity}, {AddressState} {AddressZipLong}</p>
               </div>
-              <div className="flex flex-row flex-wrap gap-x-4 gap-y-2 text-center items-center justify-center">
+              <div className="flex flex-row flex-wrap gap-x-6 gap-y-2 text-center items-center justify-center">
                 <Link className="text-lg" href={AddressLinkGoogle} target="_blank" title={"View " + Name + " on Google Maps for Directions"}><em>Google Maps</em></Link>
                 <Link className="text-lg" href={AddressLinkApple} target="_blank" title={"View " + Name + " on Apple Maps for Directions"}><em>Apple Maps</em></Link>
               </div>
             </div>
             <div className="flex flex-col gap-y-1 text-center items-center justify-center">
-              <div className="flex flex-row gap-x-4 text-center items-center justify-center">
+              <div className="flex flex-row gap-x-6 text-center items-center justify-center">
                 <p className="text-lg min-w-[67px]"><em>Mon-Fri</em></p>
-                <p className="text-lg min-w-[56px]">9-5</p>
+                <p className="text-lg min-w-[82px]">9am-5pm</p>
               </div>
-              <div className="flex flex-row gap-x-4 text-center items-center justify-center">
+              <div className="flex flex-row gap-x-6 text-center items-center justify-center">
                 <p className="text-lg min-w-[67px]"><em>Sat, Sun</em></p>
-                <p className="text-lg min-w-[56px]">Closed</p>
+                <p className="text-lg min-w-[82px]">Closed</p>
               </div>
             </div>
           </div>

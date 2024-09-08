@@ -27,7 +27,7 @@ const FAQPage: NextPage = () => {
             <div className="mt-8 mb-24 text-left">
               <Accordion allowZeroExpanded>
                 {FAQ.map((item, index) => (
-                  <ItemAccordion key={index} index={index} question={item.question ? item.question : ""} answer={item.answer ? item.answer : ""} />
+                  <ItemAccordion key={index} index={index} question={item.question ? item.question : ""} answer={item.answer ? <>{item.answer}</> : <></>} />
                 ))}
               </Accordion>
             </div>
