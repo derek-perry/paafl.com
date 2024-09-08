@@ -28,7 +28,7 @@ const NavMenu: FC<INavMenuProps> = ({ currentUrl }): JSX.Element => {
         onClick={toggleDropdown}
         onKeyDown={handleKeyDown}
       >
-        <span className="max-sm:hidden mr-3 inline h-4 font-extrabold leading-[19.5px] tracking-[.2px] text-white">
+        <span className="max-sm:hidden mr-3 inline font-extrabold text-lg text-white">
           Menu
         </span>
         <Image src="/menu.svg" alt="" aria-hidden="true" height={34} width={34} />
