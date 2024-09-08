@@ -1,0 +1,36 @@
+import type { NextPage } from "next";
+import SiteHead from "../components/SiteHead";
+import PageHead from "../components/PageHead";
+import PageFooter from "../components/PageFooter";
+import Link from "next/link";
+import Card from "../components/Card";
+import { Name, Description } from "../data/info";
+
+const ServiceAreaPage: NextPage = () => {
+  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";
+
+  return (
+    <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
+      <SiteHead title={"Service Area for " + Name} description={Description} url="service-area" image="" />
+      <PageHead />
+
+      <main className="pt-12 lg:pt-20 pb-24 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
+        <article id="service-area">
+          <section id="contentheader">
+            <h1 className="text-center px-5 sm:px-9">Service Area</h1>
+          </section>
+
+          <section id="service-area-card" className="mx-auto max-w-[880px]">
+            <Card className="mt-10 mb-20 mx-5 sm:mx-9">
+              <p className="font-normal text-3xl max-sm:text-2xl">We serve <Link href={linkBase + "/appraisal-residential" || "./appraisal-residential"} title="Get a Residential Appraisal"><strong>residential</strong></Link> and <Link href={linkBase + "/appraisal-commercial" || "./appraisal-commercial"} title="Get a Commercial Appraisal"><strong>commercial</strong></Link> properties of <em>Volusia, Flagler, Brevard, and Seminole</em> counties in Florida</p>
+            </Card>
+          </section>
+        </article>
+      </main>
+
+      <PageFooter />
+    </div>
+  );
+};
+
+export default ServiceAreaPage;
