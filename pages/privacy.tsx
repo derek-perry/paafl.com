@@ -6,7 +6,7 @@ import Link from "next/link";
 import { NameLongInc, Description, Domain, EmailMain, GitHub } from "../data/info";
 
 const PrivacyPage: NextPage = () => {
-  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || ""
+  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";
 
   return (
     <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">

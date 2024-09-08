@@ -4,7 +4,7 @@ import { Name, NameJustInc, Pages } from "../../data/info";
 import NavMenu from "../NavMenu";
 
 const PageHead = (): JSX.Element => {
-  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || ""
+  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";
 
   return (
     <header className="bg-[#1D271E] text-[#E8E9DD] w-full">

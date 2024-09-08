@@ -8,7 +8,7 @@ import Card from "../components/Card";
 import { Name, NameLongInc, NameJustInc, Description } from "../data/info";
 
 const HomePage: NextPage = () => {
-  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || ""
+  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";
 
   return (
     <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">

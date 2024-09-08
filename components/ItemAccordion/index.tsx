@@ -26,7 +26,7 @@ const ItemAccordion: FC<IItemAccordionProps> = ({
         </AccordionItemButton>
       </AccordionItemHeading>
       <AccordionItemPanel>
-        <p className="text-lg">{answer}</p>
+        <div>{answer}</div>
       </AccordionItemPanel>
     </AccordionItem>
   );

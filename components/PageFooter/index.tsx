@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Name, NameJustInc, NameLongInc, Pages, EmailMain, PhoneOffice, PhoneTollFree, PhoneFax, AddressNumber, AddressStreet, AddressSuite, AddressCity, AddressState, AddressZipLong, AddressLinkGoogle, AddressLinkApple, Domain } from "../../data/info";
 
 const PageFooter = (): JSX.Element => {
-  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || ""
+  const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";
   let currentYear: number = new Date().getFullYear();
 
   return (
@@ -25,7 +25,7 @@ const PageFooter = (): JSX.Element => {
       </div>
 
       <section id="footer-contact">
-        <div className="my-10 py-14 bg-[#E8E9DD] text-[#0B0C0B] flex max-[920px]:flex-wrap max-[920px]:flex-col text-center items-center justify-center gap-x-14 gap-y-8">
+        <div className="my-10 py-14 px-1 bg-[#E8E9DD] text-[#0B0C0B] flex max-[920px]:flex-wrap max-[920px]:flex-col text-center items-center justify-center gap-x-14 gap-y-8">
           <div className="flex flex-col gap-y-8 min-[420px]:gap-y-6 text-center items-center justify-center">
             <div className="flex flex-col min-[420px]:flex-row gap-x-6 gap-y-1 text-center min-[420px]:text-left items-center justify-center">
               <p className="text-lg min-w-[142px] text-center min-[420px]:text-right"><em>Email</em></p>

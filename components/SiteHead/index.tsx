@@ -21,6 +21,7 @@ const SiteHead: FC<ISiteHeadProps> = ({
   const urlValid = url ? url : "";
   const imageValid = image ? image : (siteUrl + "/banner.png");
   const imageAltValid = image ? titleValid : DescriptionBanner;
+
   return (
     <Head>
       <meta charSet="UTF-8" />

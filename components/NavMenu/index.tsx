@@ -17,6 +17,7 @@ const NavMenu: FC<INavMenuProps> = ({ currentUrl }): JSX.Element => {
       toggleDropdown();
     };
   };
+
   return (
     <div className="order-2 flex gap-x-2 shrink-0">
       <a

@@ -9,8 +9,9 @@ export const FAQ = [
     },
     {
         question: "Why would a person need a home appraisal?",
-        answer: <p>There are many reasons to purchase an appraisal from Pomeroy Appraisal Associates of Florida Inc. with the usual reason being real estate and mortgage transactions. A few other reasons for ordering an appraisal report include:
-            <ul>
+        answer: <>
+            <p>There are many reasons to purchase an appraisal from Pomeroy Appraisal Associates of Florida Inc. with the usual reason being real estate and mortgage transactions. A few other reasons for ordering an appraisal report include:</p>
+            <ul className="text-xl">
                 <li>To obtain a loan.</li>
                 <li>To lower your tax burden.</li>
                 <li>To establish the replacement cost of PMI.</li>
@@ -22,7 +23,7 @@ export const FAQ = [
                 <li>Because an official agency such as the IRS requires it.</li>
                 <li>If you ever find yourself in a lawsuit.</li>
             </ul>
-        </p>,
+        </>,
     },
     {
         question: "What is the difference between an appraisal and a home inspection?",
@@ -34,15 +35,16 @@ export const FAQ = [
     },
     {
         question: "What does the appraisal report contain?",
-        answer: <p>Each report must reflect a credible estimate of value and must identify the following:
-            <ul>
+        answer: <>
+            <p>Each report must reflect a credible estimate of value and must identify the following:</p>
+            <ul className="text-xl">
                 <li>client and other intended users</li>
                 <li>intended use of the report</li>
                 <li>purpose of the assignment</li>
                 <li>type of value reported and the definition of the value reported</li>
                 <li>effective date of the appraiser's opinions and conclusions</li>
                 <li>relevant property characteristics, including
-                    <ul>
+                    <ul className="text-xl">
                         <li>location attributes</li>
                         <li>physical attributes</li>
                         <li>legal attributes</li>
@@ -55,18 +57,21 @@ export const FAQ = [
                 <li>Division of interest, such as fractional interest, physical segment and partial holding.</li>
                 <li>The scope of work used to complete the assignment.</li>
             </ul>
-        </p>,
+        </>,
     },
     {
         question: "After completing the report, what assurance is there that the value indicated is valid?",
-        answer: <p>In communicating an appraisal report, each appraiser must ensure the following:
-            <ul>
+        answer: <>
+            <p>In communicating an appraisal report, each appraiser must ensure the following:</p>
+            <ul className="text-xl">
                 <li>That the information analysis utilized in the appraisal was appropriate.</li>
                 <li>That significant errors of omission or commission were not committed individually or collectively.</li>
                 <li>That appraisal services were not rendered in a careless or negligent manner.</li>
                 <li>That a credible, supportable appraisal report was communicated.</li>
             </ul>
-            <br />Most states require that real estate appraisers are state licensed or certified. The state licensed or certified appraiser is trained to render an unbiased opinion based upon extensive education and experience requirements. To become licensed or certified, appraisers must fulfill rigorous education and experience requirements. In addition, appraisers must abide by a strict industry code of ethics and comply with national standards of practice for real estate appraisal. The rules for developing an appraisal and reporting its results are insured by enforcement of the Uniform Standards of Professional Appraisal Practice (USPAP).</p>,
+            <br />
+            <p>Most states require that real estate appraisers are state licensed or certified. The state licensed or certified appraiser is trained to render an unbiased opinion based upon extensive education and experience requirements. To become licensed or certified, appraisers must fulfill rigorous education and experience requirements. In addition, appraisers must abide by a strict industry code of ethics and comply with national standards of practice for real estate appraisal. The rules for developing an appraisal and reporting its results are insured by enforcement of the Uniform Standards of Professional Appraisal Practice (USPAP).</p>
+        </>,
     },
     {
         question: "How are appraisers certified?",
@@ -90,15 +95,18 @@ export const FAQ = [
     },
     {
         question: "How do I get ready for the appraiser?",
-        answer: <p>The first step in most appraisals is the home inspection. During this process, the appraiser will come to your home and measure it, determine the layout of the rooms inside, confirm all aspects of the home's general condition, and take several photos of your house for inclusion in the report. The best thing you can do to help is make sure the appraiser has easy access to the exterior of the house. Trim any bushes and move any items that would make it difficult to measure the structure. On the inside, make sure that the appraiser can easily access items like furnaces and water heaters. <br />The following items, if available, will help your appraiser to provide a more accurate appraisal in a shorter period of time:
-            <ul>
+        answer: <>
+            <p>The first step in most appraisals is the home inspection. During this process, the appraiser will come to your home and measure it, determine the layout of the rooms inside, confirm all aspects of the home's general condition, and take several photos of your house for inclusion in the report. The best thing you can do to help is make sure the appraiser has easy access to the exterior of the house. Trim any bushes and move any items that would make it difficult to measure the structure. On the inside, make sure that the appraiser can easily access items like furnaces and water heaters.</p>
+            <br />
+            <p>The following items, if available, will help your appraiser to provide a more accurate appraisal in a shorter period of time:</p>
+            <ul className="text-xl">
                 <li>A survey of the house and property.</li>
                 <li>A deed or title report showing the legal description.</li>
                 <li>A recent tax bill.</li>
                 <li>A list of personal property to be sold with the house if applicable.</li>
                 <li>A copy of the original plans.</li>
             </ul>
-        </p>,
+        </>,
     },
     {
         question: 'What is "Market Value?"',
