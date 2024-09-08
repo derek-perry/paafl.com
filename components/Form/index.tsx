@@ -44,12 +44,16 @@ const Form = (): JSX.Element => {
     try {
       setStatus('pending');
       setError(null);
-      const myForm = event.target as HTMLFormElement;
-      const formData = new FormData(myForm);
+      const formData = new FormData(event.target as HTMLFormElement);
+      const urlSearchParams = new URLSearchParams();
+      formData.forEach((value, key) => {
+        urlSearchParams.append(key, value.toString());
+      });
+      const formDataString = urlSearchParams.toString();
       const res = await fetch('/__forms.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: formData
+        body: formDataString
       });
       if (res.status === 200) {
         setStatus('ok');
@@ -88,7 +92,7 @@ const Form = (): JSX.Element => {
 
       <div className="flex flex-col gap-y-1">
         <label htmlFor="message">Message*</label>
-        <textarea name="message" id="message" required placeholder="Your Message" className="p-2 border rounded" />
+        <textarea name="message" id="message" required rows={6} placeholder="Your Message" className="p-2 border rounded" />
       </div>
 
       <button type="submit" className="button text-xl" disabled={status === 'pending'}>Send</button>
