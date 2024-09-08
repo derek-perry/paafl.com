@@ -3,23 +3,24 @@ import SiteHead from "../components/SiteHead";
 import PageHead from "../components/PageHead";
 import PageFooter from "../components/PageFooter";
 import Link from "next/link";
+import Form from "../components/Form";
 import { Name, Description, EmailMain, ContactCTA, PhoneOffice, PhoneTollFree, PhoneFax, AddressNumber, AddressStreet, AddressSuite, AddressCity, AddressState, AddressZipLong, AddressLinkGoogle, AddressLinkApple, Domain } from "../data/info";
 
 const ContactPage: NextPage = () => {
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+  // const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  //   event.preventDefault();
 
-    const myForm = event.target as HTMLFormElement;
-    const formData = new FormData(myForm);
+  //   const myForm = event.target as HTMLFormElement;
+  //   const formData = new FormData(myForm);
 
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: formData,
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
-  };
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: formData,
+  //   })
+  //     .then(() => alert("Message sent!"))
+  //     .catch((error) => alert(error));
+  // };
 
   return (
     <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
@@ -84,7 +85,8 @@ const ContactPage: NextPage = () => {
           <section id="contact-form" className="text-left mb-8">
             <hr className="my-4" />
             <p className="mt-8 mb-6">Fill out this form below to quickly send us an email.</p>
-            <form
+            <Form />
+            {/* <form
               data-netlify="true"
               name="contact"
               action="/contact-success"
@@ -115,7 +117,7 @@ const ContactPage: NextPage = () => {
               </div>
 
               <button type="submit" className="button text-xl">Send</button>
-            </form>
+            </form> */}
             <hr className="mt-8" />
           </section>
         </article>
