@@ -23,7 +23,7 @@ export default function Document() {
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Figtree:wght@200;300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
         <Script id="plausible-analytics" defer strategy="beforeInteractive" data-domain="paafl.com" src="https://plausible.io/js/script.js"></Script>
