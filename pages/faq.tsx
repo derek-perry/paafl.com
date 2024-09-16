@@ -13,7 +13,7 @@ import { Name, NameLongInc, Description, EmailMain, ContactCTA } from "../data/i
 
 const FAQPage: NextPage = () => {
   return (
-    <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
+    <div className="text-pomeroyGreenBlack min-h-screen flex flex-col items-center justify-center">
       <SiteHead title={"FAQ - " + Name} description={Description} url="faq" image="" />
       <PageHead />
 

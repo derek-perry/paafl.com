@@ -9,7 +9,7 @@ const PrivacyPage: NextPage = () => {
   const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";
 
   return (
-    <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
+    <div className="text-pomeroyGreenBlack min-h-screen flex flex-col items-center justify-center">
       <SiteHead title={"Privacy Policy for " + Domain} description={Description} url="privacy" image="" />
       <PageHead />
 

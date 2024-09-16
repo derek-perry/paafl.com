@@ -24,11 +24,11 @@ const NavMenu: FC<INavMenuProps> = ({ currentUrl }): JSX.Element => {
         title="Menu"
         tabIndex={0}
         aria-hidden="true"
-        className="relative flex cursor-pointer items-center text-white no-underline hover:underline focus:no-underline"
+        className="relative flex cursor-pointer items-center text-pomeroyWhite no-underline hover:underline focus:no-underline"
         onClick={toggleDropdown}
         onKeyDown={handleKeyDown}
       >
-        <span className="max-sm:hidden mr-3 inline font-extrabold text-lg text-white">
+        <span className="max-sm:hidden mr-3 inline font-extrabold text-lg text-pomeroyWhite">
           Menu
         </span>
         <Image src="/menu.svg" alt="" aria-hidden="true" height={34} width={34} />

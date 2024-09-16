@@ -24,7 +24,7 @@ export const NavigationDropdown: FC<INavigationDropdownProps> = ({ onClose }): J
   return (
     <nav
       ref={ref}
-      className='absolute z-50 right-2 mx-1 top-24 max-[333px]:top-16 overflow-hidden bg-white shadow-lg'
+      className='absolute z-50 right-2 mx-1 top-24 max-[333px]:top-16 overflow-hidden bg-pomeroyWhite shadow-lg'
     >
       <div className='flex flex-row'>
         <div className='flex flex-col'>
@@ -34,7 +34,7 @@ export const NavigationDropdown: FC<INavigationDropdownProps> = ({ onClose }): J
                 <Link
                   href={linkBase + "/" + page.href || "./" + page.href}
                   title={page.title}
-                  className='py-3 px-3 max-sm:px-2 border-b hover:bg-[#E8E9DD] flex text-2xl transition-all font-bold no-underline'
+                  className='py-3 px-3 max-sm:px-2 border-b hover:bg-pomeroyGreenWhite flex text-2xl transition-all font-bold no-underline'
                 >
                   {page.title}
                 </Link>

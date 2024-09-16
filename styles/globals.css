@@ -189,6 +189,10 @@ ol ol>li:before {
   content: counters(item, '.') ' ';
 }
 
+dfn > abbr[title]::after {
+  content : ' (' attr(title) ')';
+}
+
 /* Custom Playfair Font Definition */
 .playfair {
   font-family: "Playfair", Garamond, Georgia, "Times New Roman", serif;

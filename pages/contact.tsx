@@ -8,7 +8,7 @@ import { Name, Description, EmailMain, ContactCTA, PhoneOffice, PhoneTollFree, P
 
 const ContactPage: NextPage = () => {
   return (
-    <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
+    <div className="text-pomeroyGreenBlack min-h-screen flex flex-col items-center justify-center">
       <SiteHead title={"Contact " + Name} description={Description} url="contact" image="" />
       <PageHead />
 
@@ -24,7 +24,7 @@ const ContactPage: NextPage = () => {
           </section>
 
           <section id="contact-info">
-            <div className="my-10 mx-0 sm:mx-9 py-14 px-2 bg-gray-200 text-[#0B0C0B] flex max-[920px]:flex-wrap max-[920px]:flex-col text-center items-center justify-center gap-x-14 gap-y-8">
+            <div className="my-10 mx-0 sm:mx-9 py-14 px-2 bg-gray-200 text-pomeroyBlack flex max-[920px]:flex-wrap max-[920px]:flex-col text-center items-center justify-center gap-x-14 gap-y-8">
               <div className="flex flex-col gap-y-8 min-[420px]:gap-y-6 text-center items-center justify-center">
                 <div className="flex flex-col min-[420px]:flex-row gap-x-6 gap-y-1 text-center min-[420px]:text-left items-center justify-center">
                   <p className="text-lg min-w-[142px] text-center min-[420px]:text-right"><em>Email</em></p>

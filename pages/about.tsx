@@ -10,7 +10,7 @@ const ContactPage: NextPage = () => {
   const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";
 
   return (
-    <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
+    <div className="text-pomeroyGreenBlack min-h-screen flex flex-col items-center justify-center">
       <SiteHead title={"About " + Name} description={Description} url="about" image="" />
       <PageHead />
 

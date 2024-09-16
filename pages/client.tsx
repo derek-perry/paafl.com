@@ -7,7 +7,7 @@ import { Name, NameLongInc, Description, EmailMain, ContactCTA } from "../data/i
 
 const ClientPage: NextPage = () => {
   return (
-    <div className="text-[#1D271E] min-h-screen flex flex-col items-center justify-center">
+    <div className="text-pomeroyGreenBlack min-h-screen flex flex-col items-center justify-center">
       <SiteHead title={"Client Access - " + Name} description={Description} url="client" image="" />
       <PageHead />
 
