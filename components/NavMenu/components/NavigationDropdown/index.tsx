@@ -2,7 +2,7 @@ import { FC, useRef } from 'react';
 import { useOnClickOutside } from 'usehooks-ts';
 import { useOnEventOutside } from '../../../../hooks';
 import Link from 'next/link';
-import { Pages } from "../../../../data/info";
+import { Pages } from "../../../../data";
 
 interface INavigationDropdownProps {
   onClose: (value: boolean) => void;

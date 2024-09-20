@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Card from "../Card";
-import { ServiceAreas } from "../../data/info";
+import { ServiceAreas } from "../../data";
 
 const CardArea = (): JSX.Element => {
   const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";

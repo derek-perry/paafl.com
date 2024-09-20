@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
-import { JsonLdBusiness } from "../data/info";
+import { JsonLdBusiness } from "../data";
 
 export default function Document() {
   return (

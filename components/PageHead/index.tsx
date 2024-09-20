@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Name, NameJustInc, Pages } from "../../data/info";
+import { Name, NameJustInc, Pages } from "../../data";
 import NavMenu from "../NavMenu";
 
 const PageHead = (): JSX.Element => {

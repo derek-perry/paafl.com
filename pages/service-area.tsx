@@ -5,7 +5,7 @@ import PageFooter from "../components/PageFooter";
 import Link from "next/link";
 import Image from "next/image";
 import Card from "../components/Card";
-import { Name, Description } from "../data/info";
+import { Name, Description } from "../data";
 
 const ServiceAreaPage: NextPage = () => {
   const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";

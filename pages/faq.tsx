@@ -8,8 +8,8 @@ import {
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 import ItemAccordion from "../components/ItemAccordion";
-import { FAQ } from "../data/faq";
-import { Name, NameLongInc, Description, EmailMain, ContactCTA } from "../data/info";
+import { FAQ } from "../data";
+import { Name, NameLongInc, Description, EmailMain, ContactCTA } from "../data";
 
 const FAQPage: NextPage = () => {
   return (

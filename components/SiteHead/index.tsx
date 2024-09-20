@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Head from "next/head";
-import { Name, DescriptionBanner, Domain } from "../../data/info";
+import { Name, DescriptionBanner, Domain } from "../../data";
 
 interface ISiteHeadProps {
   title: string | null;

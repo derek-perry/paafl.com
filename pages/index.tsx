@@ -5,7 +5,7 @@ import PageFooter from "../components/PageFooter";
 import Link from "next/link";
 import Image from "next/image";
 import CardArea from "../components/CardArea";
-import { Name, NameLongInc, NameJustInc, Description } from "../data/info";
+import { Name, NameLongInc, NameJustInc, Description } from "../data";
 
 const HomePage: NextPage = () => {
   const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";

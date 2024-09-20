@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Name, NameJustInc, NameLongInc, Pages, EmailMain, PhoneOffice, PhoneTollFree, PhoneFax, AddressNumber, AddressStreet, AddressSuite, AddressCity, AddressState, AddressZipLong, AddressLinkGoogle, AddressLinkApple, Domain } from "../../data/info";
+import { Name, NameJustInc, NameLongInc, Pages, EmailMain, PhoneOffice, PhoneTollFree, PhoneFax, AddressNumber, AddressStreet, AddressSuite, AddressCity, AddressState, AddressZipLong, AddressLinkGoogle, AddressLinkApple, Domain } from "../../data";
 
 const PageFooter = (): JSX.Element => {
   const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";

@@ -4,7 +4,7 @@ import PageHead from "../components/PageHead";
 import PageFooter from "../components/PageFooter";
 import Link from "next/link";
 import FormContact from "../components/FormContact";
-import { Name, Description, EmailMain, ContactCTA, PhoneOffice, PhoneTollFree, PhoneFax, AddressNumber, AddressStreet, AddressSuite, AddressCity, AddressState, AddressZipLong, AddressLinkGoogle, AddressLinkApple, Domain } from "../data/info";
+import { Name, Description, EmailMain, ContactCTA, PhoneOffice, PhoneTollFree, PhoneFax, AddressNumber, AddressStreet, AddressSuite, AddressCity, AddressState, AddressZipLong, AddressLinkGoogle, AddressLinkApple, Domain } from "../data";
 
 const ContactPage: NextPage = () => {
   return (

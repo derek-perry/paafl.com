@@ -3,7 +3,7 @@ import SiteHead from "../components/SiteHead";
 import PageHead from "../components/PageHead";
 import PageFooter from "../components/PageFooter";
 import Link from "next/link";
-import { Name, NameLongInc, Description, EmailMain, ContactCTA } from "../data/info";
+import { Name, NameLongInc, Description, EmailMain, ContactCTA } from "../data";
 
 const ClientPage: NextPage = () => {
   return (

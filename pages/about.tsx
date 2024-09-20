@@ -4,7 +4,7 @@ import PageHead from "../components/PageHead";
 import PageFooter from "../components/PageFooter";
 import Link from "next/link";
 import CardArea from "../components/CardArea";
-import { Name, Description, Summary, History, Experience } from "../data/info";
+import { Name, Description, Summary, History, Experience } from "../data";
 
 const ContactPage: NextPage = () => {
   const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";

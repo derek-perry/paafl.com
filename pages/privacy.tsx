@@ -3,7 +3,7 @@ import SiteHead from "../components/SiteHead";
 import PageHead from "../components/PageHead";
 import PageFooter from "../components/PageFooter";
 import Link from "next/link";
-import { NameLongInc, Description, Domain, EmailMain, GitHub } from "../data/info";
+import { NameLongInc, Description, Domain, EmailMain, GitHub } from "../data";
 
 const PrivacyPage: NextPage = () => {
   const linkBase = process.env.NEXT_PUBLIC_DOMAIN_URL || "";
