@@ -1,8 +1,7 @@
 # PAAFL.com
-## Website for Pomeroy Appraisal Associates of Florida which serves residential and commercial properties of Volusia, Flagler, Brevard, and Seminole counties in Florida.
+**Website for Pomeroy Appraisal Associates of Florida which serves residential and commercial properties of Volusia, Flagler, Brevard, and Seminole counties in Florida.**
 
 _(This repository contains the website for Pomeroy Appraisal Associates of Florida.)_
-
 _[Website, Web Design]_
 
 **Made Using:** Next.js, Typescript, Tailwind CSS, Netlify, Adobe Photoshop, Adobe Illustrator
